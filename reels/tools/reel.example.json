@@ -1,0 +1,71 @@
+{
+  "narration": "녹음/narration.m4a",
+  "output": "clawd-reel.mp4",
+  "tail": 0.8,
+  "audio": { "lufs": -14, "silence_db": -45, "denoise_db": -25, "gap_db": -35, "gap_min": 0.18 },
+
+  "lines": [
+    {
+      "text": "요즘 영크크 사이에서\n구형 맥북이 유행이라던데?",
+      "layout": "fit",
+      "clips": [{ "file": "etc/터치바_타자.MOV", "in": 2.0, "crop": [0.0, 0.4, 1.0, 0.3] }]
+    },
+    {
+      "text": "터치바에 [[얘]]가 살아서다",
+      "clips": [{ "file": "etc/터치바_완료.MOV", "in": 0.5, "crop": [0.0, 0.4, 1.0, 0.3] }]
+    },
+    {
+      "text": "클로드가 일하면, 얘도 일한다",
+      "layout": "split",
+      "top": { "file": "etc/claude_code_화면.mov", "in": 0 },
+      "bottom": { "file": "etc/터치바_타자.MOV", "in": 8.0, "crop": [0.0, 0.4, 1.0, 0.3] }
+    },
+    {
+      "text": "책 읽고, 운동하고, 타자 친다",
+      "clips": [
+        { "file": "etc/터치바_책.MOV", "in": 1.0, "crop": [0.0, 0.4, 1.0, 0.3] },
+        { "file": "etc/터치바_아령.MOV", "in": 1.0, "crop": [0.0, 0.4, 1.0, 0.3] },
+        { "file": "etc/터치바_타자.MOV", "in": 4.0, "crop": [0.0, 0.4, 1.0, 0.3] }
+      ]
+    },
+    {
+      "text": "허락이 필요하면, 손을 흔든다 👋",
+      "clips": [{ "file": "etc/터치바_손흔들기.MOV", "in": 0.0, "crop": [0.0, 0.4, 1.0, 0.3] }]
+    },
+    {
+      "text": "근데 일이 오래 걸리면…",
+      "clips": [{ "file": "etc/터치바_땀.MOV", "in": 0.0, "crop": [0.0, 0.4, 1.0, 0.3] }],
+      "overlays": [{ "text": "· 2분", "style": "timer", "from": 0.15, "to": 1.0 }]
+    },
+    {
+      "text": "[[나보다 더]] 화낸다",
+      "clips": [{ "file": "etc/터치바_화남.MOV", "in": 0.0, "crop": [0.0, 0.4, 1.0, 0.3] }],
+      "overlays": [{ "text": "· 10분 💢", "style": "timer", "color": "#FF3B30", "from": 0.0, "to": 1.0 }]
+    },
+    {
+      "text": "작업이 끝나면, 완료!",
+      "clips": [{ "file": "etc/터치바_완료.MOV", "in": 0.0, "crop": [0.0, 0.4, 1.0, 0.3] }]
+    },
+    {
+      "text": "쓰다듬고 간식 주면\n점점 친해진다",
+      "clips": [{ "file": "etc/데스크톱_쓰다듬기.mov", "in": 0.0 }]
+    },
+    {
+      "text": "최종 단계는, [[영혼의 단짝]] ❤️",
+      "clips": [{ "file": "etc/데스크톱_친밀도.mov", "in": 0.0 }]
+    },
+    {
+      "text": "근데 터치바 없어도 된다\n화면 위에서도 산다",
+      "clips": [{ "file": "etc/데스크톱_여러마리.mov", "in": 0.0 }]
+    },
+    {
+      "text": "무료다. 댓글에 클로드 남기면, 링크 보내준다",
+      "hide_sub": true,
+      "clips": [{ "file": "etc/터치바_타자.MOV", "in": 12.0, "crop": [0.0, 0.4, 1.0, 0.3] }],
+      "overlays": [
+        { "text": "무료 🎁", "style": "hook", "from": 0.0, "to": 1.0 },
+        { "text": "댓글에 \"[[클로드]]\" 남기면\n링크 보내드림", "style": "cta", "from": 0.0, "to": 1.0 }
+      ]
+    }
+  ]
+}
