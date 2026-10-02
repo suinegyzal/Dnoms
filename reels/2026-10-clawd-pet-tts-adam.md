@@ -1,4 +1,6 @@
-# Clawd Pet 릴스: TTS "아담" 나레이션 대본
+# Clawd Pet 릴스: 나레이션 대본
+
+> **업데이트**: TTS 대신 직접 녹음한 나레이션을 사용함. 아래 TTS 설정은 참고용.
 
 > 기획 원본: `promo/2026-10-clawd-pet-campaign.md` 4번 대본
 > 자막 파일: `reels/2026-10-clawd-pet-tts-adam.srt` (예상 타이밍. 실제 음성 길이에 맞춰 조정)
